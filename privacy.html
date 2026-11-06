@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Privacy Policy · Last One Pays for Telegram</title>
+<style>
+  body { margin: 0; background: #10111A; color: #E8E9F0; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 60px; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0 0 6px; color: #fff; }
+  h2 { font-size: 19px; margin: 32px 0 8px; color: #fff; }
+  a { color: #FFD22E; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 9px 8px; border-bottom: 1px solid #2C2E44; vertical-align: top; }
+  th { color: #9295AB; font-weight: 700; }
+  .muted { color: #9295AB; }
+  code { background: #1B1C29; padding: 1px 6px; border-radius: 6px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy — Last One Pays for Telegram</h1>
+<p class="muted"><b>Last updated: 5 November 2026</b></p>
+
+<p>Last One Pays for Telegram (the Last One Pays bot and its Mini App) is operated by
+<b>Catalyst Growth SG Pte. Ltd.</b> (Singapore). This policy describes what it collects, why,
+who can see it, and how long it is kept. It describes the bot as it actually behaves. The iOS app
+has <a href="https://sharveen22.github.io/lastonepays-legal/privacy.html">its own policy</a>.</p>
+
+<h2>The short version</h2>
+<ul>
+  <li>Your location is collected <b>only when you choose to share your Live Location</b> with the bot,
+    and it is only <b>used</b> for meetups you have joined, from 1 hour before the meet time until
+    6 hours after it.</li>
+  <li>Only the people in the same meetup can see where you are, and only during that window.</li>
+  <li>We keep your meetup history, including the location fixes you shared, <b>until you delete it</b>.
+    Send <code>/deletemydata</code> to the bot at any time.</li>
+  <li>We never sell your data, show ads, or handle money. Tabs are settled between friends.</li>
+</ul>
+
+<h2>What we collect</h2>
+<table>
+  <tr><th>Data</th><th>Where it comes from</th><th>Why</th></tr>
+  <tr><td>Telegram user ID, first and last name, username</td><td>Telegram, when you message the bot or open the Mini App</td><td>To know who you are and show your name to friends in your meetups</td></tr>
+  <tr><td>Display name, vehicle, travel mode, distance units</td><td>You, in the Mini App</td><td>How you appear on the live map and how ETAs are estimated</td></tr>
+  <tr><td>Live Location fixes (position, accuracy, heading, time)</td><td>Telegram, while you share a Live Location with the bot</td><td>The live map and confirming when you arrive</td></tr>
+  <tr><td>"I'm Here" check-in fixes</td><td>Your device, only when you tap I'm Here</td><td>Confirming your arrival</td></tr>
+  <tr><td>Meetups you create or join, arrival times, results, tabs</td><td>You and the bot</td><td>Running the meetup and showing history</td></tr>
+  <tr><td>Group chat ID and title</td><td>Telegram, when someone adds the bot to a group and links a meetup</td><td>Posting arrivals and results to that group</td></tr>
+</table>
+<p>We only accept <b>Live</b> Location from your own phone. Static pins, venues and forwarded
+locations are refused and not stored. If you share a Live Location when you are not in a meetup
+whose live window is open, the bot does not store it.</p>
+
+<h2>Who can see your data</h2>
+<ul>
+  <li><b>People in the same meetup</b> see your name, vehicle, position and ETA while its live map is
+    open, and your arrival time and the result afterwards.</li>
+  <li><b>A linked group chat</b> sees join, arrival and result messages for that meetup.</li>
+  <li><b>Anyone with a meetup's invite link</b> sees its title, place, time, host's name, number of
+    people and the stakes, but not who is going or where anyone is.</li>
+</ul>
+
+<h2>Services we use</h2>
+<table>
+  <tr><th>Service</th><th>What it receives</th></tr>
+  <tr><td>Telegram</td><td>Messages between you and the bot. See <a href="https://telegram.org/privacy">Telegram's privacy policy</a>.</td></tr>
+  <tr><td>Neon (United States)</td><td>Hosts our database. All data above is stored there.</td></tr>
+  <tr><td>Deno Deploy (United States)</td><td>Runs the bot's server, which processes the data above. It also stores the time of the next scheduled reminder, no personal data.</td></tr>
+  <tr><td>GitHub Pages</td><td>Serves the Mini App's files. It sees your IP address when you open it.</td></tr>
+  <tr><td>OpenFreeMap</td><td>Map tiles for the area you are viewing.</td></tr>
+  <tr><td>Photon by Komoot</td><td>The place names you type when searching for a destination.</td></tr>
+  <tr><td>FOSSGIS routing (routing.openstreetmap.de)</td><td>To estimate ETAs, the Mini App sends the current position of each person on the live map, and the destination, to this public routing service, from the device of the person viewing the map. It does not receive names.</td></tr>
+</table>
+
+<h2>How long we keep it</h2>
+<table>
+  <tr><th>Data</th><th>Kept</th></tr>
+  <tr><td>Profile, meetups, location fixes, results, tabs</td><td>Until you delete your data.</td></tr>
+  <tr><td>Technical records of Telegram updates (update IDs)</td><td>7 days, to ignore duplicates.</td></tr>
+</table>
+<p>Location history is the most sensitive thing we hold. It is never shown to anyone after a
+meetup's live window closes, but it is retained. If that is not acceptable to you, delete your data.</p>
+
+<h2>Deleting your data</h2>
+<p>Send <code>/deletemydata</code> to the bot, then <code>/deletemydata confirm</code>. This
+immediately deletes your profile, every location fix you shared, your memberships, results and tabs.
+Meetups you host are deleted for everyone in them. You can also email
+<b>sharveenkumar@gmail.com</b> and we will delete it within 30 days.</p>
+
+<h2>Safety</h2>
+<p>ETAs are estimates for planning, never a reason to hurry. Follow traffic rules, and if you are
+driving, check updates only when stopped or ask a passenger.</p>
+
+<h2>Children</h2>
+<p>Last One Pays is not intended for children under 13. If you believe a child has given us
+personal information, contact us and we will delete it.</p>
+
+<h2>Your rights</h2>
+<p>Depending on where you live, you may have the right to access, correct or delete your personal
+data, and to object to certain processing. Email <b>sharveenkumar@gmail.com</b> and we will respond
+within 30 days.</p>
+
+<h2>Changes</h2>
+<p>If we change this policy we will update the date above and, for material changes, tell you in
+the bot.</p>
+
+<h2>Contact</h2>
+<p>Catalyst Growth SG Pte. Ltd. · <b>sharveenkumar@gmail.com</b></p>
+</main>
+</body>
+</html>
